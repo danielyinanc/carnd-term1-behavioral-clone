@@ -112,7 +112,7 @@ To capture good driving behavior, I first recorded two laps on track one using c
 ![alt text][image1]
 
 
-After the collection process, I had about 1,100 number of data points. Subsequently, I added right and left camera images with corrected steering values to the data set reacing 3,550. I then preprocessed this data by normalizing via Lambda layer as well as cropping the 25 pixels from bottom (steering wheel and hood) as well as 75 pixels from top (trees and hilltops with sky). 
+After the collection process, I had about 1,100 number of data points. Subsequently, I added right and left camera images with corrected steering values to the data set reaching 8,935. I then preprocessed this data by normalizing via Lambda layer as well as cropping the 25 pixels from bottom (steering wheel and hood) as well as 75 pixels from top (trees and hilltops with sky). 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
